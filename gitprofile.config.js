@@ -69,7 +69,7 @@ const config = {
       year: 'August 2023',
       link: 'https://www.coursera.org/account/accomplishments/verify/7K2BTKKR35JA'
     },
-  ], */
+  ], 
   education: [
     {
       institution: 'Vellore Institute of Technology',
