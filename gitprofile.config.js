@@ -5,10 +5,11 @@ const config = {
     username: 'misbah-anwar', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
      limit: 0, // How many projects to display.
-    // exclude: {
-    //   forks: false, // Forked projects will not be displayed if set to true.
-    //   projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
-    // },
+     exclude: {
+       forks: true, // Forked projects will not be displayed if set to true.
+       projects: ['misbah-anwar.github.io','sangamone-java','misbah-anwar','my-portfolio',
+                  'sangamone-python','smartinternz-ai-ml','customer-churn','githubtest','frontend-webdev'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+     },
   },
   social: {
     linkedin: 'misbah-anwar',
