@@ -3,8 +3,8 @@
 const config = {
   github: {
     username: 'misbah-anwar' // Your GitHub org/user name. (Required)
-    //sortBy: 'stars', // stars | updated
-    // limit: 0, // How many projects to display.
+    sortBy: 'stars', // stars | updated
+     limit: 0, // How many projects to display.
     // exclude: {
     //   forks: false, // Forked projects will not be displayed if set to true.
     //   projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -90,14 +90,14 @@ const config = {
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
-    {
-      title: 'Word Game',
-      description:
-        'Created a simple word game for kids using flutter',
-      //imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://github.com/misbah-anwar/wordgame-app',
-    },
+  // externalProjects: [
+  //   {
+  //     title: 'Word Game',
+  //     description:
+  //       'Created a simple word game for kids using flutter',
+  //     //imageUrl: 'https://via.placeholder.com/250x250',
+  //     link: 'https://github.com/misbah-anwar/wordgame-app',
+  //   },
     // {
     //   title: 'Project Name',
     //   description:
@@ -117,7 +117,7 @@ const config = {
   // },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '3701134',
     snippetVersion: 6,
   },
   themeConfig: {
