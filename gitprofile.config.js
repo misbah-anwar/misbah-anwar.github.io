@@ -24,7 +24,10 @@ const config = {
   },
   skills: [
     'Flutter',
+    'Dart',
     'Python',
+    'NumPy',
+    'Pandas',
     'Java',
     'MySQL',
     'HTML',
