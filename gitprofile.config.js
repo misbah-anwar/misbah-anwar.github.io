@@ -31,9 +31,8 @@ const config = {
     'Java',
     'HTML',
     'CSS',
-    'JavaScript',
     'Tailwind',
-    'SpringBoot',
+    'Spring',
     'MySQL',
     'Postman'
   ],
