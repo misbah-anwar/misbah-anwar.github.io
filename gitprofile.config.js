@@ -29,11 +29,13 @@ const config = {
     'NumPy',
     'Pandas',
     'Java',
-    'MySQL',
     'HTML',
     'CSS',
     'JavaScript',
     'Tailwind',
+    'SpringBoot',
+    'MySQL',
+    'Postman'
   ],
   experiences: [
     {
