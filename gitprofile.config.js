@@ -20,7 +20,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1a35VMTWCiTYMT6xFcM5tK_ng1wpeMpcr/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1I07CXHJfZoNwQTAJnw2iVp1E6YDVtSKQ/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Flutter',
@@ -31,7 +31,6 @@ const config = {
     'Java',
     'HTML',
     'CSS',
-    'Tailwind',
     'Spring',
     'MySQL',
     'Postman'
