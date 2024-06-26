@@ -13,8 +13,8 @@ const config = {
      exclude: {
        forks: true, // Forked projects will not be displayed if set to true.
        projects: ['misbah-anwar.github.io','sangamone-java','misbah-anwar','my-portfolio',
-                  'sangamone-python','smartinternz-ai-ml','customer-churn','githubtest','frontend-webdev','litcoder','worldclock1-app','task-master-app-using-flask
-'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+                  'sangamone-python','smartinternz-ai-ml','customer-churn','githubtest','frontend-webdev','litcoder','worldclock1-app','task-master-app-using-flask'
+                 ], // These projects will not be displayed. example: ['my-project1', 'my-project2']
      },
   },
   social: {
