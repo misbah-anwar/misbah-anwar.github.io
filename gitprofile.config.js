@@ -3,13 +3,19 @@
 const config = {
   github: {
     username: 'misbah-anwar', // Your GitHub org/user name. (Required)
-    sortBy: 'pinned', // pinned | updated
-     limit: 0, // How many projects to display.
-     exclude: {
-       forks: true, // Forked projects will not be displayed if set to true.
-       projects: ['misbah-anwar.github.io','sangamone-java','misbah-anwar','my-portfolio',
-                  'sangamone-python','smartinternz-ai-ml','customer-churn','githubtest','frontend-webdev'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
-     },
+     automatic: {
+        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        limit: 8, // How many projects to display.
+        exclude: {
+          forks: false, // Forked projects will not be displayed if set to true.
+          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        },
+       fetchPinned: true,
+     // exclude: {
+     //   forks: true, // Forked projects will not be displayed if set to true.
+     //   projects: ['misbah-anwar.github.io','sangamone-java','misbah-anwar','my-portfolio',
+     //              'sangamone-python','smartinternz-ai-ml','customer-churn','githubtest','frontend-webdev'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+     // },
   },
   social: {
     linkedin: 'misbah-anwar',
@@ -28,6 +34,9 @@ const config = {
     'C++',
     'SQL',
     'LLMs',
+    'HTML',
+    'CSS',
+    'JavaScript',
     'Postman'
   ],
   experiences: [
