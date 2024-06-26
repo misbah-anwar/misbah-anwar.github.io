@@ -3,7 +3,7 @@
 const config = {
   github: {
     username: 'misbah-anwar', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    sortBy: 'pinned', // pinned | updated
      limit: 0, // How many projects to display.
      exclude: {
        forks: true, // Forked projects will not be displayed if set to true.
@@ -14,34 +14,43 @@ const config = {
   social: {
     linkedin: 'misbah-anwar',
     medium: 'misbah.anwar',
-    website: 'https://linktr.ee/misbah.anwar',
     phone: '+91 9741546360',
     email: 'misbahanwar0471@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1I07CXHJfZoNwQTAJnw2iVp1E6YDVtSKQ/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/10MQrK8dJl5C1H4X86DJ5RrFKWMDySITg/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Flutter',
-    'Dart',
-    'Python',
-    'NumPy',
-    'Pandas',
     'Java',
-    'HTML',
-    'CSS',
-    'Spring',
-    'MySQL',
+    'Python',
+    'C++',
+    'SQL',
+    'LLMs',
     'Postman'
   ],
   experiences: [
-    {
+        {
+      company: 'VIT Chennai',
+      position: 'Summer Research Intern',
+      from: 'May 2024',
+      to: 'Present',
+      companyLink: 'https://vit.ac.in',
+    },
+        {
       company: 'SangamOne Connected Services',
       position: 'Intern',
       from: 'September 2023',
       to: 'Present',
       companyLink: 'https://sangamone.com',
+    },
+    {
+      company: 'SmartInternz',
+      position: 'AI and ML Intern',
+      from: 'August 2023',
+      to: 'November 2024',
+      companyLink: 'https://smartinternz.com',
     },
     {
       company: 'Google Developer Student Club',
@@ -60,10 +69,10 @@ const config = {
   ],
   certifications: [
     {
-      name: 'Introduction to Data Science in Python',
-      body: 'Machine Learning ∙ Data Science ∙ Python',
-      year: 'August 2023',
-      link: 'https://www.coursera.org/account/accomplishments/certificate/GFMX4AMYC3HG'
+      name: 'AZ-104: Microsoft Certified: Azure Administrator Associate',
+      body: 'Azure ∙ Cloud ∙ User Services',
+      year: 'Dec 2023',
+      link: 'https://learn.microsoft.com/api/credentials/share/en-us/MisbahAnwar-2581/EF3D85BE25816A58?sharingId=176194A02BE2E349'
     },
     {
       name: 'Object Localization with TensorFlow',
@@ -78,18 +87,21 @@ const config = {
       degree: 'B.Tech Computer Science Engineering (Spl. in AI and ML)',
       from: '2021',
       to: '2025',
+      gpa: 8.25
     },
     {
       institution: 'Sri Chaitanya College of Education',
       degree: 'Pre-University, CBSE',
       from: '2019',
       to: '2021',
+      agg: 89.8
     },
     {
       institution: 'Mitra Academy',
       degree: 'High School, ICSE',
       from: '2006',
       to: '2019',
+      agg: 91.5
     },
   ],
 
